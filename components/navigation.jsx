@@ -1,4 +1,5 @@
 import Link from "next/link";
+ 
 
 const Home = () => {
   return (
@@ -9,8 +10,8 @@ const Home = () => {
           <ul className="flex gap-4">
             <li><Link href="/">home</Link></li>
             <li><Link href="/contact">contact</Link></li>
-            <li><Link href="/service">service</Link></li>
-            <li><Link href="/about">about</Link></li>
+            <li><Link href="/servercomp">servercompo</Link></li>
+            <li><Link href="/clientcomp">clientcomp</Link></li>
           </ul>
         </nav>
       </header>

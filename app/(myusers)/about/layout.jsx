@@ -1,5 +1,4 @@
 
-
 export default function aboutLayout({children}){
   return(
     <html>
