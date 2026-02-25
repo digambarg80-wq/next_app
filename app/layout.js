@@ -22,9 +22,9 @@ const workSans = Work_Sans({
 
 export default function RootLayout({ children }) {
   return (
-    <html >                       {/* ✅ Added lang="en" for accessibility */}
+    <html lang="en">                      
       <body className={`${roboto.variable} ${workSans.variable}`}>
-        {children}                         {/* Child pages will render here */}
+        {children}                         
       </body>
     </html>
   );

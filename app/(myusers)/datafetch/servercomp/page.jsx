@@ -10,4 +10,4 @@ const confidencePercentage = userData.probability * 100;
     return <h1>Data Fetching Server {userData.name} - {confidencePercentage} </h1>
 };
 
-export default DataFetchServer;
+export default DataFetchServer; 
